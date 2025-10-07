@@ -2,7 +2,7 @@ import ctypes
 import os
 
 # Load the shared library
-libpath = os.path.join(os.path.dirname(__file__), "librapl.so")
+libpath = os.path.join(os.path.dirname(__file__), "build/librapl.so")
 rapl = ctypes.CDLL(libpath)
 
 # Define function signatures
